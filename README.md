@@ -163,5 +163,9 @@ wget -P ./weighted_retraining/assets/pretrained_models/chem_vanilla/ $url
     chmod u+x ./weighted_retraining/scripts/robust_opt/robust_opt_chem_pseudo.sh
     ./weighted_retraining/scripts/robust_opt/robust_opt_chem_pseudo.sh
     ```
+## Citation
+```
+
+```
 ## Acknowledgements
 - Thanks to the authors of the [High-Dimensional Bayesian Optimisation withVariational Autoencoders and Deep Metric Learning](https://github.com/huawei-noah/HEBO/tree/master/T-LBO) for providing their implementations of high-dimensional BO based on weighted-retraining VAE, which we based most of our code on.
