@@ -5,7 +5,7 @@
 - Install the experiments running environment.
 ```bash
 conda env create -f environment.yml
-conda activate gplbo_env
+conda activate pglbo_env
 ```
 - Set result storage path.
 ```bash
