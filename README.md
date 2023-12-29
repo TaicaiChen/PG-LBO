@@ -165,7 +165,14 @@ wget -P ./weighted_retraining/assets/pretrained_models/chem_vanilla/ $url
     ```
 ## Citation
 ```
-
+@misc{chen2023pglbo,
+      title={PG-LBO: Enhancing High-Dimensional Bayesian Optimization with Pseudo-Label and Gaussian Process Guidance}, 
+      author={Taicai Chen and Yue Duan and Dong Li and Lei Qi and Yinghuan Shi and Yang Gao},
+      year={2023},
+      eprint={2312.16983},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
 ```
 ## Acknowledgements
 - Thanks to the authors of the [High-Dimensional Bayesian Optimisation withVariational Autoencoders and Deep Metric Learning](https://github.com/huawei-noah/HEBO/tree/master/T-LBO) for providing their implementations of high-dimensional BO based on weighted-retraining VAE, which we based most of our code on.
